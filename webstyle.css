@@ -1,0 +1,329 @@
+@import url("https://fonts.google.com/specimen/Playfair+Display");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Playfair', serif;
+
+}
+/* *{
+  outline: 1px solid red ;
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    padding: 1rem 2rem; 
+    z-index: 1000; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar li{
+  list-style: none;
+  padding: 10px 20px;
+  position: relative;
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #fff;
+    font-family: serif;
+    font-size: 1.1rem;
+    padding: 0 0.4rem;
+}
+
+#navbarSupportedContent >button{
+    
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+#navbarSupportedContent > ul > button{
+    background: transparent;
+    margin: 0.02rem;
+ }
+ #navbarSupportedContent > ul > button:hover{
+     color:white;
+ }
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.mid img{
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    object-fit: cover; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(80%);
+}
+.hero{
+    position: relative;
+    margin-bottom: 10%;
+}
+.mid .hero h2{
+    padding: 0;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.mid .hero h1{
+    padding: 0;
+    font-weight: 200;
+    font-size: 9rem;
+}
+.mid .hero p{
+    width:55%;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    padding: 15px 28px 15px 28px;
+}
+.mid .hero a{
+    background: #f9fc4dfa;
+    font-weight: 250;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid .hero a:hover{
+    background: #eef112;
+}
+div{
+    display: block;
+    text-align: center;
+}
+
+.hr {
+    position: relative;
+    width: 10%;
+    height: 0.8vh; 
+    background-color: #f9fc4dfa; 
+    margin: 20px auto; 
+}
+  .card-img-top {
+    width: 370;
+    height: 400px;
+    object-fit: cover;
+  }
+  .custom-card {
+    max-width: 370px; 
+    height: auto;
+    margin: 0 auto;
+    border: none; 
+    box-shadow: none; 
+    color: rgba(61, 59, 59, 0.801);
+  }
+  
+body {
+    overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        color: rgba(61, 59, 59, 0.801);
+        text-shadow: 0px 0.2px  #53c74863;
+    }
+   
+.Jane{
+    background-color: #f3f3f3cb;
+    padding: 40px 0;
+}
+
+img[src="quotes.svg"] {
+    filter: grayscale(100%) brightness(2);
+  }
+  
+  .about{
+    align-items: left;
+  }
+  .about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin: auto;
+  }
+
+  .about .text h6{
+    font-weight: 200;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+   padding: 0.1rem 0.8rem;
+  }
+  .about .text h2{
+    font-weight: 0;
+    font-size: 2.5rem;
+    padding: 0.2rem 0.6rem;
+    
+  }
+  .about .text p{
+    font-weight: 50;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    padding: 0.2rem 0.6rem;
+  }
+  .about .text a{
+    color: #254922ee;
+    font-weight: 250;
+    padding: 0.8rem 1.4rem;
+    border: 1px solid #254922ee;
+    text-decoration: none;
+  }
+  .about .img img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 2px;
+    float: right;
+}
+
+.foot {
+  background-image: url(image-2/footer-hero-big.jpg);
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .foot img{
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    object-fit: cover; 
+    background-position: center;
+    position: absolute;
+    filter: brightness(100%); 
+}
+  
+
+  .foot .end {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+
+  }
+  
+  .foot .end h1 {
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  
+  .foot .end p {
+    width: 70%;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    padding: 25px 28px 50px 28px;
+  }
+  
+  .foot .end a {
+    background: #f9fc4dfa;
+    font-weight: 250;
+    padding: 0.6rem 1.4rem;
+    margin-bottom: 0.8rem;
+    border-radius: 5px;
+    border: 1px dotted;
+    text-decoration: none;
+  }
+  
+  .foot .end a:hover {
+    background: #eef112;
+  }
+  
+ 
+  .footer {
+    color: #254922ee;
+  }
+  .footer img {
+    filter: invert(80%);
+  }
+  .footer a {
+    color: #254922ee;
+    text-decoration: none; 
+  }
+
+  @media screen and (max-width: 988px) {
+    .navbar {
+      height: 70px;
+      font-size: 1rem;
+    }
+    #navbarSupportedContent > ul{
+        padding-left: 0.8rem;
+    }
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+     padding: 0.8rem 0;
+    background-color: rgba(61, 59, 59, 0.801);
+    }
+    #navbarSupportedContent > ul > button{
+      background: rgba(61, 59, 59, 0.801);
+      padding: 0.7rem 0rem;
+      border: none;
+    }
+
+  }
+@media (max-width: 768px){
+
+.about .row img{
+  display: none;
+}
+
+.about .text h6{
+ padding: 0.1rem 0.9rem;
+}
+.about .text h2{
+  font-weight: 0;
+  font-size: 1.6rem;
+  padding: 0.2rem 0.7rem;
+  
+}
+.about .text p{
+  font-weight: 0;
+  font-size: 1rem;
+  padding: 0.4rem 0.9rem;
+}
+  .foot .end h1 {
+    font-size: 2.2rem;
+
+  }
+  
+  .foot .end p {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+  }
+  .foot .end a{
+    padding: 0.6rem 1.2rem;
+  }
+   
+  .footer ul li{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    margin: 0.9rem;
+  }
+  .footer img{
+   margin: 1rem;
+   margin-bottom: 2rem;
+  }
+}
